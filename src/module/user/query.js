@@ -3,6 +3,5 @@ export default {
         id: 1,
         name: 'Vishvjeet Sharma',
         email: 'Vishvjeet@gmail.com',
-        address: 'Dhampur'
     }),
 };
