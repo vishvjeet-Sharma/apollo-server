@@ -6,6 +6,7 @@ type Mutation {
   CreateTrainee(user: CreateUserInput): User!
   UpdateTrainee(id: ID!, name: String, email: String, role: String): User!
   DeleteTrainee(id: ID!): ID!
+  loginUser(payload: inputCredentials): Token!
 }
 
 type Subscription {
